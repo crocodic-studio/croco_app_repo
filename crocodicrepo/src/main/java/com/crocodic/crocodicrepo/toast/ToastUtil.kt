@@ -1,10 +1,10 @@
-package com.crocodic.crocodicrepo
+package com.crocodic.crocodicrepo.toast
 
 import android.content.Context
 import android.widget.Toast
 
 
-class ToastUtil constructor(val context: Context){
+class ToastUtil constructor(private val context: Context){
 
     private lateinit var toast: Toast
 
