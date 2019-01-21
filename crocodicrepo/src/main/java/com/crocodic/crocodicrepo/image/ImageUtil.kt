@@ -136,7 +136,7 @@ class ImageUtil private constructor() {
         var TYPE_ALL = 0
         var TYPE_CAMERA = 1
         var TYPE_GALLERY = 2
-        var TYPE_SELECTED = 0
+        private var TYPE_SELECTED = 0
         var KEY_OF_FILE = 0
 
         fun with(activity: Activity?): ImageUtil {
