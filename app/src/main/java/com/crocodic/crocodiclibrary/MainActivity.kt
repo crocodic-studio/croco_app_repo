@@ -7,6 +7,7 @@ import android.view.View
 import com.crocodic.crocodiclibrary.date.DateActivity
 import com.crocodic.crocodiclibrary.image.ImageActivity
 import com.crocodic.crocodiclibrary.notif.NotifInAppActivity
+import com.crocodic.crocodicrepo.log.LogUtil
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), View.OnClickListener {
@@ -19,6 +20,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnDate.setOnClickListener(this)
         btnNotif.setOnClickListener(this)
         btnImage.setOnClickListener(this)
+
+        LogUtil.e("test")
 
     }
 

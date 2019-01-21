@@ -33,6 +33,7 @@ class NotifInAppActivity : AppCompatActivity(), View.OnClickListener {
             .setTitle("Notification")
             .setText("New notification")
             .setDuration(5000)
+            .setIcon(R.drawable.ic_notifications_active_black_24dp)
             .enableSwipeToDismiss()
             .setOnClickListener(View.OnClickListener { view ->
                 val notif = Intent(this, MainActivity::class.java)

@@ -517,6 +517,7 @@ class Alerter private constructor() {
         activityWeakReference = WeakReference(activity)
     }
 
+
     companion object {
 
         private var activityWeakReference: WeakReference<Activity>? = null
