@@ -12,5 +12,14 @@
 
     <style name="AlertButton" parent="@style/Widget.AppCompat.Button.Colored" />
 
+    <!--Image-->
+    <style name="TransApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
 
 </resources>

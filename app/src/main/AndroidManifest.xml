@@ -3,6 +3,8 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.crocodic.crocodiclibrary">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+
     <application
             android:name=".Core"
             android:allowBackup="true"
@@ -24,6 +26,8 @@
         <activity android:name=".image.ImageActivity">
         </activity>
         <activity android:name=".notif.NotifInAppActivity">
+        </activity>
+        <activity android:name=".image.PreviewImageActivity">
         </activity>
     </application>
 

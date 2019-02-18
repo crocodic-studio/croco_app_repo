@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity
 import android.view.View
 import com.crocodic.crocodiclibrary.date.DateActivity
 import com.crocodic.crocodiclibrary.image.ImageActivity
+import com.crocodic.crocodiclibrary.image.PreviewImageActivity
 import com.crocodic.crocodiclibrary.notif.NotifInAppActivity
 import com.crocodic.crocodicrepo.log.LogUtil
 import kotlinx.android.synthetic.main.activity_main.*
@@ -20,6 +21,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         btnDate.setOnClickListener(this)
         btnNotif.setOnClickListener(this)
         btnImage.setOnClickListener(this)
+        btnPreviewImage.setOnClickListener(this)
 
         LogUtil.e("test")
 
@@ -35,6 +37,9 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
             R.id.btnImage -> {
                 startActivity(Intent(this, ImageActivity::class.java))
+            }
+            R.id.btnPreviewImage -> {
+                startActivity(Intent(this, PreviewImageActivity::class.java))
             }
         }
     }
