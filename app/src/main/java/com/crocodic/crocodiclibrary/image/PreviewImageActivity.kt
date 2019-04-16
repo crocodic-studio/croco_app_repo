@@ -1,12 +1,16 @@
 package com.crocodic.crocodiclibrary.image
 
+import android.content.Intent
+import android.net.Uri
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import com.crocodic.crocodiclibrary.R
+import com.crocodic.crocodicrepo.image.ImagePickerCrop
 import com.crocodic.crocodicrepo.image.PreviewImage
 import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_preview_image.*
+import java.io.File
 
 class PreviewImageActivity : AppCompatActivity(), View.OnClickListener {
 
@@ -21,6 +25,8 @@ class PreviewImageActivity : AppCompatActivity(), View.OnClickListener {
         ivImage.setOnClickListener(this)
         btnHaveImage.setOnClickListener(this)
         btnNoImage.setOnClickListener(this)
+        btnPickCamera.setOnClickListener(this)
+        btnPickGallery.setOnClickListener(this)
 
     }
 
@@ -35,6 +41,22 @@ class PreviewImageActivity : AppCompatActivity(), View.OnClickListener {
             R.id.btnNoImage -> {
                 PreviewImage().load("", ivImage, this)
             }
+
+            R.id.btnPickCamera -> {
+                ImagePickerCrop.openPicker(this@PreviewImageActivity, ImagePickerCrop.PICKER_CAMERA)
+            }
+
+            R.id.btnPickGallery -> {
+                ImagePickerCrop.openPicker(this@PreviewImageActivity, ImagePickerCrop.PICKER_GALLERY)
+            }
+        }
+    }
+
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        if (resultCode == ImagePickerCrop.RESULT_PICKER_OK){
+            val path = data?.getStringExtra(ImagePickerCrop.KEY_PICKER_PATH)
         }
     }
 }

@@ -1,1 +1,1 @@
-include ':app', ':crocodicrepo'
+include ':app', ':crocodicrepo', ':cropper'
