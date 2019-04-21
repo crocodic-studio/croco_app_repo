@@ -29,6 +29,8 @@
         </activity>
         <activity android:name=".image.PreviewImageActivity">
         </activity>
+        <activity android:name=".adapter.ListActivity">
+        </activity>
     </application>
 
 </manifest>
