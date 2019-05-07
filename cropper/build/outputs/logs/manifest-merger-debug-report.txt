@@ -1,31 +1,31 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
+ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
 	package
-		ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:2:5-45
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:2:5-45
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
+		ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
 	android:versionCode
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml:1:1-4:12
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml:1:1-4:12
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
 uses-sdk
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		ADDED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
-		INJECTED from /Volumes/Local D/Android/Improve/croco_app_repo/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		ADDED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml
+		INJECTED from /Users/macbook/Documents/CodeRepo2/cropper/src/main/AndroidManifest.xml

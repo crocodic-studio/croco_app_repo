@@ -145,6 +145,9 @@ val Any?.isNull: Boolean
 inline fun <reified T> Activity.start() {
     this.startActivity(Intent(this, T::class.java))
 }
+inline fun <reified T> Activity.start(name : String,value : String) {
+    this.startActivity(Intent(this, T::class.java).putExtra(name,value))
+}
 
 inline fun <reified T> Activity.startClearTask() {
     this.startActivity(Intent(this, T::class.java).setFlags(Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK))
